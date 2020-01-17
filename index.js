@@ -17,7 +17,7 @@ const S = Sanctuary.create({
 	env: Sanctuary.env.concat(env)
 });
 
-const mapP = transforms => input => {
+const evaluateP = transforms => input => {
   return Promise.all(S.map(mapper(input))(transforms));
 }
 
@@ -28,6 +28,6 @@ const mapper = input => f => {
 };
 
 module.exports = {
-  mapP: mapP,
+  evaluateP: evaluateP,
   env: env
 };
