@@ -1,4 +1,4 @@
-# sanctuary-pipeP
+# sanctuary-processP
 Adds synchronous and async / await process functionality to sanctuary. A process waits for all of its tasks to be finished.
 
 [![Actions Status](https://github.com/beesperester/sanctuary-processP/workflows/Node.js%20Package/badge.svg?branch=master)](https://github.com/beesperester/sanctuary-processP/actions)
