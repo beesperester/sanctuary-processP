@@ -11,7 +11,7 @@ Adds synchronous and async / await process functionality to sanctuary. A process
 // Import sanctuary.
 const Sanctuary = require('sanctuary');
 
-// /Import processP and env from sanctuary-processP
+// Import processP and env from sanctuary-processP
 const { processP, env } = require('sanctuary-processP');
 
 
