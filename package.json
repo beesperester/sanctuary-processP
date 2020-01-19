@@ -1,15 +1,17 @@
 {
-  "name": "SecretIllustriousPython",
+  "name": "sanctuary-processp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Adds synchronous and async / await process functionality to sanctuary. A process waits for all of its tasks to be finished.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha test/**/*.test.js --exit"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["sanctuary", "process"],
+  "author": "Bernhard Esperester <bernhard@esperester.de>",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
     "sanctuary": "^2.0.2",
     "sanctuary-def": "^0.20.1"
   }
