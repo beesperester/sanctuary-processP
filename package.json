@@ -1,12 +1,15 @@
 {
   "name": "sanctuary-processp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds synchronous and async / await process functionality to sanctuary. A process waits for all of its tasks to be finished.",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha test/**/*.test.js --exit"
   },
-  "keywords": ["sanctuary", "process"],
+  "keywords": [
+    "sanctuary",
+    "process"
+  ],
   "author": "Bernhard Esperester <bernhard@esperester.de>",
   "license": "ISC",
   "dependencies": {
