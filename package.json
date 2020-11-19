@@ -1,6 +1,6 @@
 {
   "name": "sanctuary-processp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds synchronous and async / await process functionality to sanctuary. A process waits for all of its tasks to be finished.",
   "main": "index.js",
   "scripts": {
